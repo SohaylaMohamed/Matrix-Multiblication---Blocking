@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/sohayla/CLionProjects/MatrixMulti/WithBlocking.h
+vector
+-
+
+/home/sohayla/CLionProjects/MatrixMulti/WithoutBlocking.h
+cstddef
+-
+vector
+-
+
+/home/sohayla/CLionProjects/MatrixMulti/main.cpp
+iostream
+-
+cstring
+-
+fstream
+-
+WithoutBlocking.h
+/home/sohayla/CLionProjects/MatrixMulti/WithoutBlocking.h
+WithBlocking.h
+/home/sohayla/CLionProjects/MatrixMulti/WithBlocking.h
+
